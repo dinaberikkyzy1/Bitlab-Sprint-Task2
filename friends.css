@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    background: #978c8c29;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #323a5cd8;
+}
+
+a{
+    text-decoration: none;
+    color: #323a5cd8;
+}
+.header{
+  display: flex;
+  align-items: center;
+  background-color: #4c77a7;
+  padding: 8px 14.5%;
+  margin-bottom: 18px;
+}
+
+.header a{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 120px;
+    
+}
+.search input{
+    background-color: #1f4777;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.main{
+    padding:0 10% 0 14.5%;
+    display: flex;
+    color: #323a5cd8;
+}
+
+.links{
+    width:13%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.links a{
+    color: #323a5cd8;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.friends_container {
+    margin: 0;
+    width: 61%;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.title_block_list_friends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.my_friends_title_block {
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.my_friends_title_block span {
+    color: #5c5c5c;
+    font-weight: 500;
+    
+}
+.online_friends_title {
+    margin-left: 30px;
+}
+
+.find_friends_title button {
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #4c77a7;
+    border: none;
+}
+
+.search_block_list_friends {
+    border-top: 1px solid #5c5c5c;
+    padding: 15px 20px;
+}
+
+.search_block_list_friends i svg {
+    position: absolute;
+    margin-left: -5px;
+}
+
+.search_block_list_friends input {
+    width: 100%;
+    padding-left: 20px;
+    border: none;
+}
+
+.search_block_list_friends input::placeholder {
+    font-size: 14px;
+}
+
+
+.friend_list_block {
+    display: flex;
+    padding: 15px 25px;
+    border-top: 1px solid #5c5c5c;
+}
+
+.photo_friend {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.info_block_friend_list {
+    margin:0 0 0 20px;
+}
+
+.info_block_friend_list .friend_name {
+    color: #323a5cd8;
+    font-weight: 600;
+}
+
+
+.info_block_friend_list p {
+    margin:5px 0;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info_block_friend_list div a {
+    font-size: 13px;
+}
+
+.different_window_friends {
+    width: 24%;
+    margin-left: 15px;
+}
+
+.filter_friends_container {
+    padding:10px 0 15px 0 ;
+    border-radius: 5px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.any_filters_friend {
+    padding: 10px 15px;
+}
+
+.any_filters_friend:hover {
+    background-color: #5c89adc8;
+}
+
+.list_friends p {
+   margin: 0;
+}
+
+.possible_friends{
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.possible_friends img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pf1{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    
+}
+
+.pf_text{
+    margin-left: 15px;
+}
+
+.pf_text p{
+    margin: 0;
+    font-size: 13px;
+}
+
+.pf_text a:first-child{
+   font-size: 14px;
+}
+.pf_text a{
+    font-size: 12px;
+ }
+
